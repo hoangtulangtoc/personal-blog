@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <body>
+        <th:block th:fragment="language-switch">
+            <nav class="inline-flex items-center gap-1 rounded-full bg-light-action-secondary dark:bg-dark-action-secondary p-1"
+                th:aria-label="#{language.switch}">
+                <a th:href="@{${currentPath}(lang='en')}"
+                    lang="en" hreflang="en"
+                    th:aria-current="${#locale.language == 'en' ? 'true' : null}"
+                    th:classappend="${#locale.language == 'en'} ? 'bg-white dark:bg-dark-bg-primary text-accent shadow-sm' : 'text-light-fg-secondary dark:text-dark-fg-secondary hover:text-accent'"
+                    class="rounded-full px-2.5 py-1 text-xs font-bold transition-colors duration-200">EN</a>
+                <a th:href="@{${currentPath}(lang='vi')}"
+                    lang="vi" hreflang="vi"
+                    th:aria-current="${#locale.language == 'vi' ? 'true' : null}"
+                    th:classappend="${#locale.language == 'vi'} ? 'bg-white dark:bg-dark-bg-primary text-accent shadow-sm' : 'text-light-fg-secondary dark:text-dark-fg-secondary hover:text-accent'"
+                    class="rounded-full px-2.5 py-1 text-xs font-bold transition-colors duration-200">VI</a>
+            </nav>
+        </th:block>
+    </body>
+</html>
