@@ -9,7 +9,7 @@ tags:
 - a11y
 - tools
 - devtools
-publishedAt: 2026-10-24T09:00
+publishedAt: 2030-10-24T09:00
 createdAt: '2026-10-23T06:34'
 updatedAt: '2026-10-23T10:32'
 ---

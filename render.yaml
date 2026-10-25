@@ -1,0 +1,21 @@
+# Render Blueprint for the public demo. See README.md (Deploying the demo to Render).
+services:
+  - type: web
+    name: personal-blog-demo
+    runtime: docker
+    plan: free
+    branch: main
+    dockerfilePath: ./Dockerfile.demo
+    dockerContext: .
+    healthCheckPath: /
+    autoDeploy: true
+    envVars:
+      # Entered in the Render dashboard; never committed.
+      - key: ADMIN_USERNAME
+        sync: false
+      - key: ADMIN_PASSWORD_HASH
+        sync: false
+      - key: REMEMBER_ME_KEY
+        generateValue: true
+      - key: SESSION_COOKIE_SECURE
+        value: "true"
