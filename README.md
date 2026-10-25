@@ -2,6 +2,8 @@
 
 A server-rendered personal blog built with Spring Boot for the [roadmap.sh Personal Blog](https://roadmap.sh/projects/personal-blog) project. Articles are stored as Markdown files, and the admin area is protected by form login.
 
+**Live demo:** <https://personal-blog-demo.onrender.com> (public pages only; it may take up to a minute to wake up)
+
 ![Home page](docs/screenshots/english-01-home.jpg)
 
 ## Overview
