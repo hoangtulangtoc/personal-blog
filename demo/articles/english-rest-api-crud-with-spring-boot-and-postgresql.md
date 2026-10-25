@@ -9,7 +9,7 @@ tags:
 - spring
 - rest
 - postgresql
-publishedAt: 2026-10-23T06:30
+publishedAt: 2026-10-23T07:45
 createdAt: '2026-10-23T06:12'
 updatedAt: '2026-10-23T10:06'
 ---

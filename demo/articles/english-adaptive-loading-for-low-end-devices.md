@@ -9,7 +9,7 @@ tags:
 - webperf
 - performance
 - javascript
-publishedAt: 2026-10-23T05:45
+publishedAt: 2026-10-23T06:15
 createdAt: '2026-10-23T06:02'
 updatedAt: '2026-10-23T10:01'
 ---

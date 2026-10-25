@@ -9,7 +9,7 @@ tags:
 - webperf
 - mobile
 - optimize
-publishedAt: 2026-10-23T08:30
+publishedAt: 2026-10-23T09:00
 createdAt: '2026-10-23T06:32'
 updatedAt: '2026-10-23T10:16'
 ---

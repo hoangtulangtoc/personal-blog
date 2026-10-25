@@ -9,7 +9,7 @@ tags:
 - webperf
 - lighthouse
 - monitoring
-publishedAt: 2026-10-23T08:45
+publishedAt: 2026-10-23T06:30
 createdAt: '2026-10-23T06:34'
 updatedAt: '2026-10-23T10:17'
 ---

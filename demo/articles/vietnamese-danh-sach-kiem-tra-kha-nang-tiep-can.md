@@ -9,7 +9,7 @@ tags:
 - a11y
 - checklist
 - ux
-publishedAt: 2026-10-23T07:45
+publishedAt: 2026-10-23T07:30
 createdAt: '2026-10-23T06:24'
 updatedAt: '2026-10-23T10:12'
 ---

@@ -9,7 +9,7 @@ tags:
 - a11y
 - inclusion
 - html
-publishedAt: 2026-10-23T08:00
+publishedAt: 2026-10-23T07:00
 createdAt: '2026-10-23T06:28'
 updatedAt: '2026-10-23T10:14'
 ---
